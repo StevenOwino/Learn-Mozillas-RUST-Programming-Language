@@ -6,3 +6,5 @@ https://read.amazon.com/kp/embed?asin=B07B8RJ8VJ&preview=newtab&linkCode=kpe&ref
 https://www.packtpub.com/product/rust-standard-library-cookbook/9781788623926
 # You will certainly need https://www.sublimetext.com/ for a complete IDE, to edit the "Cargo.toml" source file.
 # Finally, upgrade your terminal from the default, with https://iterm2.com/downloads.html appropriately.
+# Reference:
+https://doc.rust-lang.org/stable/book/print.html
