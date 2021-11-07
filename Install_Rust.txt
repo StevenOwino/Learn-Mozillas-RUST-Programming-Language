@@ -1,0 +1,106 @@
+(base) Steven-Owinos-iMac:RUST_Cookbook stevenowino$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+info: downloading installer
+
+Welcome to Rust!
+
+This will download and install the official compiler for the Rust
+programming language, and its package manager, Cargo.
+
+Rustup metadata and toolchains will be installed into the Rustup
+home directory, located at:
+
+  /Users/stevenowino/.rustup
+
+This can be modified with the RUSTUP_HOME environment variable.
+
+The Cargo home directory located at:
+
+  /Users/stevenowino/.cargo
+
+This can be modified with the CARGO_HOME environment variable.
+
+The cargo, rustc, rustup and other commands will be added to
+Cargo's bin directory, located at:
+
+  /Users/stevenowino/.cargo/bin
+
+This path will then be added to your PATH environment variable by
+modifying the profile files located at:
+
+  /Users/stevenowino/.profile
+  /Users/stevenowino/.bash_profile
+  /Users/stevenowino/.bashrc
+  /Users/stevenowino/.zshenv
+
+You can uninstall at any time with rustup self uninstall and
+these changes will be reverted.
+
+Current installation options:
+
+
+   default host triple: x86_64-apple-darwin
+     default toolchain: stable (default)
+               profile: default
+  modify PATH variable: yes
+
+1) Proceed with installation (default)
+2) Customize installation
+3) Cancel installation
+>1
+
+info: profile set to 'default'
+info: default host triple is x86_64-apple-darwin
+info: syncing channel updates for 'stable-x86_64-apple-darwin'
+683.2 KiB / 683.2 KiB (100 %)  96.0 KiB/s in  7s ETA:  0s
+info: latest update on 2021-11-01, rust version 1.56.1 (59eed8a2a 2021-11-01)
+info: downloading component 'cargo'
+  4.4 MiB /   4.4 MiB (100 %) 137.6 KiB/s in 37s ETA:  0s
+info: downloading component 'clippy'
+  1.7 MiB /   1.7 MiB (100 %) 150.3 KiB/s in 13s ETA:  0s 
+info: downloading component 'rust-docs'
+ 17.3 MiB /  17.3 MiB (100 %) 211.2 KiB/s in  2m  5s ETA:  0s    
+info: downloading component 'rust-std'
+ 22.0 MiB /  22.0 MiB (100 %) 153.6 KiB/s in  2m 32s ETA:  0s    
+info: downloading component 'rustc'
+ 62.2 MiB /  62.2 MiB (100 %) 118.4 KiB/s in  8m 40s ETA:  0s    
+info: downloading component 'rustfmt'
+  2.3 MiB /   2.3 MiB (100 %) 115.2 KiB/s in 22s ETA:  0s
+info: installing component 'cargo'
+info: installing component 'clippy'
+info: installing component 'rust-docs'
+ 17.3 MiB /  17.3 MiB (100 %) 896.0 KiB/s in 35s ETA:  0s    
+info: installing component 'rust-std'
+ 22.0 MiB /  22.0 MiB (100 %)   6.7 MiB/s in  3s ETA:  0s
+info: installing component 'rustc'
+ 62.2 MiB /  62.2 MiB (100 %)   6.7 MiB/s in  9s ETA:  0s
+info: installing component 'rustfmt'
+info: default toolchain set to 'stable-x86_64-apple-darwin'
+
+  stable-x86_64-apple-darwin installed - rustc 1.56.1 (59eed8a2a 2021-11-01)
+
+
+Rust is installed now. Great!
+
+To get started you may need to restart your current shell.
+This would reload your PATH environment variable to include
+Cargo's bin directory ($HOME/.cargo/bin).
+
+To configure your current shell, run:
+source $HOME/.cargo/env
+(base) Steven-Owinos-iMac:RUST_Cookbook stevenowino$ 
+
+|^^^^^^^|
+| NOTES |
+|_______|
+
+ISSUE: Cargo build hangs with " Blocking waiting for file lock on the registry index" 
+
+$ sudo pkill rls cargo
+
+Every primitive data type can be randomized: Although random_char will probably not be representable on most operating systems: Clearly its representable on MacOs
+random_num1: 1536445314
+random_num2: -1361757868
+random_char: 󿩩 
+random_num3: 8
+random_float: 0.5867510120421222
+random_chacha_num: -1377781642
