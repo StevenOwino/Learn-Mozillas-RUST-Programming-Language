@@ -93,14 +93,21 @@ source $HOME/.cargo/env
 | NOTES |
 |_______|
 
-ISSUE: Cargo build hangs with " Blocking waiting for file lock on the registry index" 
+1. Create a Rust project to work on during this chapter with cargo new chapter-one e.g,
+(base) Steven-Owinos-iMac:chapter-one stevenowino$
+2. Navigate to the newly created folder. For the rest of this chapter, we will assume that your command line is currently in this directory.
+3. Inside the "src" folder, create a new folder called "bin"    
+4. Delete the generated "lib.rs" file, if any,  as we are not creating a library.
+5. In the "src/bin" folder, create/copy a file called "parallelism.rs"
+6. Run it with " cargo run --bin 'parallelism'  " NOTE without the .rs!!
+
+ISSUE: If Cargo build hangs with " Blocking waiting for file lock on the registry index", then
 
 $ sudo pkill rls cargo
 
-Every primitive data type can be randomized: Although random_char will probably not be representable on most operating systems: Clearly its representable on MacOs
+Every primitive data type can be randomized: Although random_char will probably not be representable on most operating systems: Clearly its representable on MacOs!!
 random_num1: 1536445314
 random_num2: -1361757868
-random_char: 󿩩 
-random_num3: 8
+random_char: 󿩩?  This message has a 50-50 chance of being printed
 random_float: 0.5867510120421222
 random_chacha_num: -1377781642
